@@ -1,28 +1,29 @@
 ---
 #####
-# Surviva Game Plugin
+# Survival Game Plugin
 # Made By: Andre_The_Gamer
+# Config: iawesomecreeper 
 #####
 
 ########################
-# Message 
+# Message
 ########################
-Player_Join_Server: Welcome To My Server 
-ArenaJoin: Joinning SG Match.........
+PlayerJoinServer: Welcome To {Your Server Name}
+ArenaJoin: Joinning a Hunger Game Arena
 Arenajoined: You have join SG-1
 
 
 ########################################################
 # Arena's #
 ########################################################
-Lobby: Lobby    // This will be where player's get teleported after they die / win match.
-Arena: SG   // The world the plugin will use to teleport the player to the arena.
+Lobby: Lobby    // This will be where everyone spawns after they die or win.
+Arena: SG   // This will teleport the player to the arena
 
-Min-Player: 2 // Cannot be changed! 'YET"
-Max-Player: 24 // Cannot be changed! 'YET"
+Min-Player: 2 // Minimum players cannot be changed 'YET"
+Max-Player: 24 // Maximum players on the arena cannot be changed'YET"
 
 
-# Stand Where you wan't to set spawn and do /xyz and add the number's in config
+# Stand Where you wan't the players to spawn in use /xyz and place them in Spawns
 # Add The same line for more player's
 Spawns:
 - 12      // Edit the number's
